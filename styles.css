@@ -37,18 +37,19 @@ nav ul li a:hover {
 
 /* Banner */
 #banner {
-    background-color: #700169;
-    color: #030303;
-    padding: 30px 0;
+    background-image: url('img.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    padding: 50px 0;
     text-align: center;
 }
 #banner h2 {
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 2.5em; 
 }
 
 #banner p {
-    font-size: 1.5em;
+    font-size: 1.2em; /
 }
 
 /* Sections */
@@ -75,13 +76,13 @@ p {
 
 h2,
 h3 {
-    font-size: 3em;
+    font-size: 2.5em; 
 }
 
 img {
-    width: 170px; /* Defina a largura desejada */
-    height: auto; /* Para manter a proporção */
-    margin-right: 40px; /* Adicione margem à esquerda para separar o texto */
+    width: 170px; 
+    height: auto; 
+    margin-right: 40px; 
     align-items: right;
     display: flex;
 }
@@ -91,10 +92,57 @@ h1 {
     align-items: center;
 }
 
-#missao p {
-    font-size: 1.5em;
+#missao {
+    padding: 50px 0;
+    text-align: center;
 }
 
 #missao h3 {
-    padding-bottom: 10px;
+    margin-bottom: 30px;
 }
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.mission-box {
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.mission-box:hover {
+    transform: translateY(-10px);
+}
+
+.mission-box h4 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.mission-box p {
+    font-size: 0.9em;
+    color: #666;
+}
+#banner {
+    background-color: #fff; /* Alterei a cor de fundo para branco */
+    color: #333; /* Alterei a cor do texto para preto */
+    padding: 50px 0;
+    text-align: center;
+}
+
+#banner h2 {
+    margin-bottom: 20px;
+    color: #0e0f0f; /* Alterei a cor do título para azul */
+}
+
+#banner p {
+    font-size: 1.1em; /* Ajustei o tamanho do texto */
+    line-height: 1.6; /* Ajustei o espaçamento entre linhas */
+}
+
