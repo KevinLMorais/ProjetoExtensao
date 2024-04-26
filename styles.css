@@ -1,8 +1,8 @@
 /* Reset CSS */
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
 }
 
 /* Navbar */
@@ -20,8 +20,8 @@ nav .container {
     font-size: 17px;
 }
 nav ul {
-    list-style: none;
     display: flex;
+    list-style: none;
 }
 nav ul li {
     margin-right: 20px;
@@ -37,10 +37,11 @@ nav ul li a:hover {
 
 /* Banner */
 #banner {
-    background-color: #700169;
-    color: #030303;
-    padding: 30px 0;
+    background-color: #f3e6db;
+    color: rgb(54, 53, 53);
+    padding: 0;
     text-align: center;
+    display: flex;
 }
 #banner h2 {
     margin-bottom: 20px;
@@ -56,8 +57,23 @@ section {
     padding: 50px 0;
 }
 .container {
-    width: 80%;
+    width: 50%;
     margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: cen;
+}
+
+.imagem-banner {
+    width: 100%;
+}
+
+.div-imagem {
+    width: 40%;
+    height: 100%;
+    position: relative;
 }
 
 /* Footer */
@@ -66,11 +82,6 @@ footer {
     color: #fff;
     text-align: center;
     padding: 15px 0;
-}
-
-p {
-    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
-        sans-serif;
 }
 
 h2,
@@ -98,3 +109,49 @@ h1 {
 #missao h3 {
     padding-bottom: 10px;
 }
+
+#missao {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#missao ul {
+    font-size: 1.2rem;
+    padding-top: 20px;
+}
+
+.section-depoimentos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    margin: 2rem 0;
+}
+
+.depoimentos {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    border-radius: 22px;
+    box-shadow: 2px 2px 15px 2px gray;
+    background-color: rgb(241, 241, 241);
+}
+
+.depoimentos img {
+    width: 100%;
+    height: 50%;
+}
+
+.depoimentos p {
+    font-size: 1.2rem;
+    padding: 1rem;
+    height: 40%;
+    color: rgb(54, 53, 53);
+}
+
+.depoimentos h4 {
+    align-self: center;
+}
+
+
