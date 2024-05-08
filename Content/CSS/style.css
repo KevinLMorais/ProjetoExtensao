@@ -96,3 +96,29 @@ footer{
     text-align: center;
     background-color: #363636;
 }
+
+#depoimento{
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+}
+
+.depoimento-pessoa{
+    background-color: #7556569c;
+    text-align: center;
+    padding: 30px;
+    border-radius: 50px;
+    overflow: auto;
+}
+
+.image-depoimento{
+    width: 500px;
+    border-radius: 20px;
+}
+
+/*
+.texto-depoimento{
+    background-color: #EEEEEE;
+    padding: 10px;
+    border-radius: 25px;
+}*/
