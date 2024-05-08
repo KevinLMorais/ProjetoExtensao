@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+nav{
+    padding: 20px;
+    background-color: #f0d9da;
+    color: #543a3a;
+}
+
+body{
+    background-color: #f9ecec;
+}
+
+#barra-navi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+#barra-navi ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+#barra-navi a{
+    padding: 15px;
+}
+
+#barra-navi a:hover{
+    background-color: #f9ecec;
+    border-radius: 10px;
+    padding: 15px;
+    transition: 0.4s;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.04);
+}
+
+#banner{
+    background-color: #d6c2c3;
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    text-align: center;
+}
+
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0px;
+    text-align: center;
+    font-size: 1.2em;
+    width: 800px;
+}
+
+#banner-image{
+    scale: 1.15;
+    padding-top: 20px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.6em;
+    font-weight: bolder;
+}
+
+#missao, #visao{
+    background-color: #ddc9ca;
+    margin: 50px auto;
+    border-radius: 50px;
+    width: 1200px;
+    padding: 30px;
+    box-shadow: 1px 1px 5px black;
+}
+
+#lista-home > p{
+    text-align: center;
+    font-size: 1.4em;
+}
+
+#lista-home > ul{
+    columns: 2;
+    width: 1200px;
+    margin: auto;
+    padding: 30px;
+    list-style: circle;
+}
+
+footer{
+    color: white;
+    padding: 5px;
+    text-align: center;
+    background-color: #363636;
+}
