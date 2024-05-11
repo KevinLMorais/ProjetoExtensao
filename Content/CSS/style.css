@@ -229,14 +229,35 @@ footer {
     margin-bottom: 20px;
 }
 
-.item-nutricao {
-    border: black 2px solid;
-    border-radius: 20px;
-    padding: 8px;
+.cuidados-textos{
     display: grid;
-    grid-column: auto;
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas com largura igual */
+    grid-template-rows: repeat(2, 1fr); /* Duas linhas com altura igual */
+    gap: 30px; /* Espaçamento entre os itens */
+    margin: 40px 0;
 }
 
 .content-cuidados {
     margin-left: 20px;
+}
+
+.cuidados-tipos {
+    background-color: #eeeeee;
+    width: 1000px;
+    height: 250px;
+    border-radius: 30px;
+    border: 5px #d6c2c3 solid;
+    overflow: auto;
+}
+.cuidados-tipos h3 {
+    background-color: #d6c2c3;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.cuidados-tipos p{
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4em;
 }
