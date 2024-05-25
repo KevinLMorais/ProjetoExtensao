@@ -266,6 +266,7 @@ footer {
 
 .alimentacao-introducao {
     text-align: center;
+    padding: 30px;
 }
 
 .imagens-alimentacao {
@@ -286,3 +287,90 @@ footer {
 .content-guias-nutricionais {
     margin-left: 30px;
 }
+
+.manha-lanche-almoco{
+    background-color: #f0d9dab6;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    overflow: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.receitas_dicas{
+    text-align: center;
+}
+
+.receitas_dicas div{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.saude_mental{
+    background-color: #f0d9da;
+    padding: 30px;
+}
+
+.div-mae-dicas-saude-mental{
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    justify-content: center;
+}
+
+.dicas-saude-mental{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    width: 350px;
+    border-radius: 20px;
+    height: 400px;
+    background-color: #543a3a8f;
+    text-align: center;
+    padding: 20px;
+    overflow: auto;
+}
+
+.dicas-saude-mental h3{
+    color: aliceblue;
+}
+
+.dicas-saude-mental ul{
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.dicas-saude-mental li{
+    padding-top: 10px;
+}
+
+#saude-mental-comeco{
+    text-align: center;
+}
+
+#exercicio-1-fisico-segura{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 30px 0px;
+}
+
+.exercicios_fisicos, .beneficios_do_exercicio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    width: 600px;
+    height: 400px;
+    background-color: #d6c2c3;
+    border-radius: 30px;
+}
+
