@@ -374,3 +374,97 @@ footer {
     border-radius: 30px;
 }
 
+#imagem-consulta{
+    height: 50vh;
+    background-image: url(/Image/consulta.jpg);
+    background-position: center bottom;
+    background-size: cover;
+}
+
+#banner-consulta-exame{
+    padding: 30px;
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+#conteudo-consulta{
+    background-color: #d6c2c3;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+#conteudo-consulta2{
+    display: flex;
+    gap: 100px;
+    padding: 50px;
+    background-color: #d6c2c3;
+}
+
+.conteudo-consulta-filho{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: #543a3a 4px solid;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    padding: 20px;
+    height: 250px;
+    width: 1300px;
+}
+
+.conteudo-consulta-filho2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: #543a3a 4px solid;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    padding: 20px;
+    height: 350px;
+    width: 450px;
+}
+
+.conteudo-consulta-filho p, .conteudo-consulta-filho2 p, .conteudo-consulta-filho12 p, .conteudo-consulta-filho22 p{
+    padding-top: 20px;
+}
+
+#imagem-consulta2{
+    background-image: url(/Image/medicos.jpg);
+    height: 60vh;
+    background-position: center center;
+    background-size: cover;
+}
+
+.conteudo-consulta-filho22{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: #543a3a 4px solid;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    padding: 20px;
+    height: 300px;
+    width: 450px;
+}
+
+.conteudo-consulta-filho12{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: #543a3a 4px solid;
+    border-radius: 20px;
+    background-color: #eeeeee;
+    padding: 20px;
+    height: 150px;
+    width: 1300px;
+}
+
+.teste12345{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
