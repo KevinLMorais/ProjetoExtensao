@@ -6,6 +6,10 @@ nav {
     color: #543a3a;
 }
 
+html {
+    font-family: poppins;
+}
+
 body {
     background-color: #f9ecec;
     overflow-x: hidden;
@@ -288,7 +292,7 @@ footer {
     margin-left: 30px;
 }
 
-.manha-lanche-almoco{
+.manha-lanche-almoco {
     background-color: #f0d9dab6;
     display: flex;
     align-items: center;
@@ -299,11 +303,11 @@ footer {
     border-radius: 30px;
 }
 
-.receitas_dicas{
+.receitas_dicas {
     text-align: center;
 }
 
-.receitas_dicas div{
+.receitas_dicas div {
     display: flex;
     gap: 50px;
     align-items: center;
@@ -311,19 +315,19 @@ footer {
     padding: 20px;
 }
 
-.saude_mental{
+.saude_mental {
     background-color: #f0d9da;
     padding: 30px;
 }
 
-.div-mae-dicas-saude-mental{
+.div-mae-dicas-saude-mental {
     display: flex;
     gap: 30px;
     padding: 40px;
     justify-content: center;
 }
 
-.dicas-saude-mental{
+.dicas-saude-mental {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -337,31 +341,32 @@ footer {
     overflow: auto;
 }
 
-.dicas-saude-mental h3{
+.dicas-saude-mental h3 {
     color: aliceblue;
 }
 
-.dicas-saude-mental ul{
+.dicas-saude-mental ul {
     list-style: circle;
     list-style-position: inside;
 }
 
-.dicas-saude-mental li{
+.dicas-saude-mental li {
     padding-top: 10px;
 }
 
-#saude-mental-comeco{
+#saude-mental-comeco {
     text-align: center;
 }
 
-#exercicio-1-fisico-segura{
+#exercicio-1-fisico-segura {
     display: flex;
     gap: 50px;
     justify-content: center;
     padding: 30px 0px;
 }
 
-.exercicios_fisicos, .beneficios_do_exercicio{
+.exercicios_fisicos,
+.beneficios_do_exercicio {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -374,21 +379,20 @@ footer {
     border-radius: 30px;
 }
 
-#imagem-consulta{
+#imagem-consulta {
     height: 50vh;
     background-image: url(/Image/consulta.jpg);
     background-position: center bottom;
     background-size: cover;
 }
 
-#banner-consulta-exame{
+#banner-consulta-exame {
     padding: 30px;
     text-align: center;
     font-size: 1.5em;
-    
 }
 
-#conteudo-consulta{
+#conteudo-consulta {
     background-color: #d6c2c3;
     padding: 50px;
     display: flex;
@@ -396,14 +400,14 @@ footer {
     margin: auto;
 }
 
-#conteudo-consulta2{
+#conteudo-consulta2 {
     display: flex;
     gap: 100px;
     padding: 50px;
     background-color: #d6c2c3;
 }
 
-.conteudo-consulta-filho{
+.conteudo-consulta-filho {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -415,7 +419,7 @@ footer {
     width: 1300px;
 }
 
-.conteudo-consulta-filho2{
+.conteudo-consulta-filho2 {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -427,18 +431,21 @@ footer {
     width: 450px;
 }
 
-.conteudo-consulta-filho p, .conteudo-consulta-filho2 p, .conteudo-consulta-filho12 p, .conteudo-consulta-filho22 p{
+.conteudo-consulta-filho p,
+.conteudo-consulta-filho2 p,
+.conteudo-consulta-filho12 p,
+.conteudo-consulta-filho22 p {
     padding-top: 20px;
 }
 
-#imagem-consulta2{
+#imagem-consulta2 {
     background-image: url(/Image/medicos.jpg);
     height: 60vh;
     background-position: center center;
     background-size: cover;
 }
 
-.conteudo-consulta-filho22{
+.conteudo-consulta-filho22 {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -450,7 +457,7 @@ footer {
     width: 450px;
 }
 
-.conteudo-consulta-filho12{
+.conteudo-consulta-filho12 {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -462,9 +469,33 @@ footer {
     width: 1300px;
 }
 
-.teste12345{
+.conteudo-hemograma {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.texto-hemograma h1 {
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+.texto-hemograma li {
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.imagem-hemograma {
+    padding: 70px;
+    width: 1200px;
+    height: 900px;
+}
+
+.texto-hemograma a {
+    font-size: 30px;
+    background-color: white;
+    padding: 15px;
 }
