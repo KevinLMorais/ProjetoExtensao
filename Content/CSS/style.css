@@ -4,12 +4,14 @@ nav {
     padding: 20px;
     background-color: #f0d9da;
     color: #543a3a;
+    font-size: 0.9em;
 }
 
 body {
     background-color: #f9ecec;
     overflow-x: hidden;
     font-family: poppins;
+
 }
 
 #barra-navi {
@@ -148,6 +150,11 @@ footer {
     display: flex;
 }
 
+.one-semanas img, .two-semanas img{
+    border-radius: 50%;
+    padding: 50px;
+}
+
 #ultima-semana {
     display: flex;
     justify-content: center;
@@ -222,8 +229,15 @@ footer {
     font-size: 1.4em;
 }
 
+#sintoma-mae{
+    display: grid;
+    place-items: center; /* Centraliza horizontal e verticalmente */
+    margin: 100px 0px;
+}
+
 .div-filho-cuidados-tipos{
     display: flex;
+    gap: 50px;
 }
 
 .content-cuidados h2 {
@@ -235,6 +249,7 @@ footer {
 .cuidados-textos {
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 .content-cuidados {
@@ -242,9 +257,10 @@ footer {
 }
 
 .cuidados-tipos {
+    display: grid;
     background-color: #eeeeee;
-    width: 850px;
-    height: 250px;
+    width: 600px;
+    height: 300px;
     border-radius: 30px;
     border: 5px #d6c2c3 solid;
     overflow: hidden;
@@ -465,10 +481,16 @@ footer {
     justify-content: center;
 }
 
-.conteudo-hemograma {
+.conteudo-hemograma1 {
+    background-color: #d6c2c3;
     display: flex;
-    margin-left: 30px;
-    margin-top: 30px;
+    padding: 70px;
+}
+
+.conteudo-hemograma2 {
+    background-color: #eeeeee;
+    display: flex;
+    padding: 70px;
 }
 
 .texto-hemograma h1 {
@@ -484,14 +506,212 @@ footer {
     margin-bottom: 30px;
 }
 
-.imagem-hemograma {
-    padding: 70px;
+.imagem-hemografia{
+    margin: 0px 20px;
     width: 1200px;
     height: 900px;
+    background-image: url("/Image/hemograma.jpg");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30px;
+
 }
 
 .texto-hemograma a {
     font-size: 30px;
     background-color: white;
     padding: 15px;
+}
+
+.imagem-ultrassonografia{
+    margin: 0px 20px;
+    width: 1200px;
+    height: 900px;
+    background-image: url("/Image/Ultrassonografia.jpg");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.imagem-Mamografia{
+    margin: 0px 20px;
+    width: 1200px;
+    height: 900px;
+    background-image: url("/Image/mamografia.jpeg");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30px;
+
+}
+
+.imagem-eletrocardiograma{
+    margin: 0px 20px;
+    width: 1200px;
+    height: 900px;
+    background-image: url("/Image/eletrocardiograma.jpg");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.texto-hemograma a{
+    border: black 3px solid;
+    border-radius: 30px;
+}
+
+
+.texto-hemograma a:hover{
+    background-color: rgba(0, 0, 0, 0.021);
+}
+
+#mae-content-pos-parto{
+    display: grid;
+    place-items: center; /* Centraliza horizontal e verticalmente */
+    margin: 40px 0px;
+}
+
+#div-mae-content-pos-parto{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.content-pos-parto{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 1200px;
+    height: 100%;
+    background-color: #eeeeee;
+    text-align: center;
+    border: #543a3a 4px solid;
+    border-radius: 40px;
+    padding: 40px;
+}
+
+.content-pos-parto p{
+    font-size: 1.5em;
+}
+
+#creditos-section {
+    position: relative;  /* Necessário para posicionar a pseudo-classe */
+    width: 100%;
+    height: 120h; /* Altura da tela inteira */
+    background: url('/Image/usc_frente.jpg') no-repeat center center/cover;
+}
+
+#creditos-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.61); /* Preto com 50% de transparência */
+    z-index: 1; /* Coloca a camada acima da imagem de fundo */
+}
+
+#div-creditos-section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    position: relative;  /* Necessário para posicionar o conteúdo acima do overlay */
+    z-index: 2; /* Coloca o conteúdo acima do overlay preto */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.3em;
+}
+
+#preparacao-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%; /* Para garantir que a seção ocupe toda a largura do contêiner pai */
+    max-width: 80%; /* Ajuste conforme necessário */
+
+}
+
+#preparacao-section h2{
+    font-size: 1.4em;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#div-creditos-section img{
+    width: 30%;
+    margin: auto;
+}
+
+.div-quadrado-modelo{
+    background-color: #eeeeee;
+    border: #543a3a 4px solid;
+    text-align: center;
+    width: 600px;
+    height: 140px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#div-mao-preparacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.div-filho-mao-preparacao{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza horizontalmente */
+    text-align: center;
+    align-items: center;    /* Centraliza verticalmente se desejar */
+    min-height: 100vh;      /* Garante que o main ocupe a altura total da tela */
+}
+
+#pos-parto-section{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.div-quadrado-modelo2{
+    background-color: #eeeeee;
+    border: #543a3a 4px solid;
+    text-align: center;
+    width: 1000px;
+    height: 140px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.div-filho-mao-preparacao21{
+    margin-top: 90px;
+}
+
+.div-filho-mao-preparacao21, .div-filho-mao-preparacao23{
+    background-color: #d6c2c3;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.div-filho-mao-preparacao22{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding:  50px;
+    background-color: #eeeeee;
 }
