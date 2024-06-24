@@ -11,7 +11,6 @@ body {
     background-color: #f9ecec;
     overflow-x: hidden;
     font-family: poppins;
-
 }
 
 #barra-navi {
@@ -62,7 +61,7 @@ h2 {
     font-size: 2em;
 }
 
-h4{
+h4 {
     font-size: 1.5em;
     font-weight: bolder;
 }
@@ -155,7 +154,8 @@ footer {
     display: flex;
 }
 
-.one-semanas img, .two-semanas img{
+.one-semanas img,
+.two-semanas img {
     border-radius: 50%;
     padding: 50px;
 }
@@ -199,7 +199,6 @@ footer {
 #sintomas-comuns {
     display: grid;
     place-items: center; /* Centraliza horizontal e verticalmente */
-
 }
 
 #content-sintomas {
@@ -214,7 +213,7 @@ footer {
     padding: 50px;
 }
 
-.div-filho-sintoma{
+.div-filho-sintoma {
     display: flex;
     gap: 50px;
 }
@@ -234,13 +233,13 @@ footer {
     font-size: 1.4em;
 }
 
-#sintoma-mae{
+#sintoma-mae {
     display: grid;
     place-items: center; /* Centraliza horizontal e verticalmente */
     margin: 100px 0px;
 }
 
-.div-filho-cuidados-tipos{
+.div-filho-cuidados-tipos {
     display: flex;
     gap: 50px;
 }
@@ -307,7 +306,7 @@ footer {
     margin-left: 30px;
 }
 
-.manha-lanche-almoco{
+.manha-lanche-almoco {
     background-color: #f0d9dab6;
     display: flex;
     align-items: center;
@@ -318,11 +317,11 @@ footer {
     border-radius: 30px;
 }
 
-.receitas_dicas{
+.receitas_dicas {
     text-align: center;
 }
 
-.receitas_dicas div{
+.receitas_dicas div {
     display: flex;
     gap: 50px;
     align-items: center;
@@ -330,19 +329,19 @@ footer {
     padding: 20px;
 }
 
-.saude_mental{
+.saude_mental {
     background-color: #f0d9da;
     padding: 30px;
 }
 
-.div-mae-dicas-saude-mental{
+.div-mae-dicas-saude-mental {
     display: flex;
     gap: 30px;
     padding: 40px;
     justify-content: center;
 }
 
-.dicas-saude-mental{
+.dicas-saude-mental {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -356,31 +355,32 @@ footer {
     overflow: auto;
 }
 
-.dicas-saude-mental h3{
+.dicas-saude-mental h3 {
     color: aliceblue;
 }
 
-.dicas-saude-mental ul{
+.dicas-saude-mental ul {
     list-style: circle;
     list-style-position: inside;
 }
 
-.dicas-saude-mental li{
+.dicas-saude-mental li {
     padding-top: 10px;
 }
 
-#saude-mental-comeco{
+#saude-mental-comeco {
     text-align: center;
 }
 
-#exercicio-1-fisico-segura{
+#exercicio-1-fisico-segura {
     display: flex;
     gap: 50px;
     justify-content: center;
     padding: 30px 0px;
 }
 
-.exercicios_fisicos, .beneficios_do_exercicio{
+.exercicios_fisicos,
+.beneficios_do_exercicio {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -393,21 +393,20 @@ footer {
     border-radius: 30px;
 }
 
-#imagem-consulta{
+#imagem-consulta {
     height: 50vh;
-    background-image: url(/Image/consulta.jpg);
+    background-image: url(consulta.jpg);
     background-position: center bottom;
     background-size: cover;
 }
 
-#banner-consulta-exame{
+#banner-consulta-exame {
     padding: 30px;
     text-align: center;
     font-size: 1.5em;
-    
 }
 
-#conteudo-consulta{
+#conteudo-consulta {
     background-color: #d6c2c3;
     padding: 50px;
     display: flex;
@@ -415,14 +414,14 @@ footer {
     margin: auto;
 }
 
-#conteudo-consulta2{
+#conteudo-consulta2 {
     display: flex;
     gap: 100px;
     padding: 50px;
     background-color: #d6c2c3;
 }
 
-.conteudo-consulta-filho{
+.conteudo-consulta-filho {
     display: grid;
     text-align: center;
     border: #543a3a 4px solid;
@@ -433,7 +432,7 @@ footer {
     width: 1300px;
 }
 
-.conteudo-consulta-filho2{
+.conteudo-consulta-filho2 {
     display: grid;
     text-align: center;
     border: #543a3a 4px solid;
@@ -444,18 +443,21 @@ footer {
     width: 600px;
 }
 
-.conteudo-consulta-filho p, .conteudo-consulta-filho2 p, .conteudo-consulta-filho12 p, .conteudo-consulta-filho22 p{
+.conteudo-consulta-filho p,
+.conteudo-consulta-filho2 p,
+.conteudo-consulta-filho12 p,
+.conteudo-consulta-filho22 p {
     padding-top: 20px;
 }
 
-#imagem-consulta2{
-    background-image: url(/Image/medicos.jpg);
+#imagem-consulta2 {
+    background-image: url(medicos.jpg);
     height: 60vh;
     background-position: center center;
     background-size: cover;
 }
 
-.conteudo-consulta-filho22{
+.conteudo-consulta-filho22 {
     display: grid;
     text-align: center;
     border: #543a3a 4px solid;
@@ -467,7 +469,7 @@ footer {
     overflow: hidden;
 }
 
-.conteudo-consulta-filho12{
+.conteudo-consulta-filho12 {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -479,7 +481,7 @@ footer {
     width: 1300px;
 }
 
-.teste12345{
+.teste12345 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -511,15 +513,14 @@ footer {
     margin-bottom: 30px;
 }
 
-.imagem-hemografia{
+.imagem-hemografia {
     margin: 0px 20px;
     width: 1200px;
     height: 900px;
-    background-image: url("/Image/hemograma.jpg");
+    background-image: url("hemograma.jpg");
     background-position: center center;
     background-size: cover;
     border-radius: 30px;
-
 }
 
 .texto-hemograma a {
@@ -528,60 +529,58 @@ footer {
     padding: 15px;
 }
 
-.imagem-ultrassonografia{
+.imagem-ultrassonografia {
     margin: 0px 20px;
     width: 1200px;
     height: 900px;
-    background-image: url("/Image/Ultrassonografia.jpg");
+    background-image: url("Ultrassonografia.jpg");
     background-position: center center;
     background-size: cover;
     border-radius: 30px;
 }
 
-.imagem-Mamografia{
+.imagem-Mamografia {
     margin: 0px 20px;
     width: 1200px;
     height: 900px;
-    background-image: url("/Image/mamografia.jpeg");
-    background-position: center center;
-    background-size: cover;
-    border-radius: 30px;
-
-}
-
-.imagem-eletrocardiograma{
-    margin: 0px 20px;
-    width: 1200px;
-    height: 900px;
-    background-image: url("/Image/eletrocardiograma.jpg");
+    background-image: url("mamografia.jpeg");
     background-position: center center;
     background-size: cover;
     border-radius: 30px;
 }
 
-.texto-hemograma a{
+.imagem-eletrocardiograma {
+    margin: 0px 20px;
+    width: 1200px;
+    height: 900px;
+    background-image: url("eletrocardiograma.jpg");
+    background-position: center center;
+    background-size: cover;
+    border-radius: 30px;
+}
+
+.texto-hemograma a {
     border: black 3px solid;
     border-radius: 30px;
 }
 
-
-.texto-hemograma a:hover{
+.texto-hemograma a:hover {
     background-color: rgba(0, 0, 0, 0.021);
 }
 
-#mae-content-pos-parto{
+#mae-content-pos-parto {
     display: grid;
     place-items: center; /* Centraliza horizontal e verticalmente */
     margin: 40px 0px;
 }
 
-#div-mae-content-pos-parto{
+#div-mae-content-pos-parto {
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.content-pos-parto{
+.content-pos-parto {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -594,19 +593,19 @@ footer {
     padding: 40px;
 }
 
-.content-pos-parto p{
+.content-pos-parto p {
     font-size: 1.5em;
 }
 
 #creditos-section {
-    position: relative;  /* Necessário para posicionar a pseudo-classe */
+    position: relative; /* Necessário para posicionar a pseudo-classe */
     width: 100%;
     height: 120h; /* Altura da tela inteira */
-    background: url('/Image/usc_frente.jpg') no-repeat center center/cover;
+    background: url("usc_frente.jpg") no-repeat center center/cover;
 }
 
 #creditos-section::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -616,11 +615,11 @@ footer {
     z-index: 1; /* Coloca a camada acima da imagem de fundo */
 }
 
-#div-creditos-section{
+#div-creditos-section {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    position: relative;  /* Necessário para posicionar o conteúdo acima do overlay */
+    position: relative; /* Necessário para posicionar o conteúdo acima do overlay */
     z-index: 2; /* Coloca o conteúdo acima do overlay preto */
     color: white;
     text-align: center;
@@ -628,27 +627,26 @@ footer {
     font-size: 1.3em;
 }
 
-#preparacao-section{
+#preparacao-section {
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     width: 100%; /* Para garantir que a seção ocupe toda a largura do contêiner pai */
-
 }
 
-#preparacao-section h2{
+#preparacao-section h2 {
     font-size: 1.4em;
     margin-top: 30px;
     margin-bottom: 40px;
 }
 
-#div-creditos-section img{
+#div-creditos-section img {
     width: 30%;
     margin: auto;
 }
 
-.div-quadrado-modelo{
+.div-quadrado-modelo {
     background-color: #eeeeee;
     border: #543a3a 4px solid;
     text-align: center;
@@ -659,13 +657,13 @@ footer {
     border-radius: 4px;
 }
 
-#div-mao-preparacao{
+#div-mao-preparacao {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.div-filho-mao-preparacao{
+.div-filho-mao-preparacao {
     padding: 30px;
     display: flex;
     align-items: center;
@@ -673,14 +671,13 @@ footer {
     gap: 40px;
 }
 
-
-#pos-parto-section{
+#pos-parto-section {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
 
-.div-quadrado-modelo2{
+.div-quadrado-modelo2 {
     background-color: #eeeeee;
     border: #543a3a 4px solid;
     text-align: center;
@@ -691,11 +688,12 @@ footer {
     border-radius: 4px;
 }
 
-.div-filho-mao-preparacao21{
+.div-filho-mao-preparacao21 {
     margin-top: 90px;
 }
 
-.div-filho-mao-preparacao21, .div-filho-mao-preparacao23{
+.div-filho-mao-preparacao21,
+.div-filho-mao-preparacao23 {
     background-color: #d6c2c3;
     padding: 50px;
     display: flex;
@@ -704,11 +702,11 @@ footer {
     gap: 40px;
 }
 
-.div-filho-mao-preparacao22{
+.div-filho-mao-preparacao22 {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    padding:  50px;
+    padding: 50px;
     background-color: #eeeeee;
 }
